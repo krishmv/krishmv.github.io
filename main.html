@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+  
+<body onclick ="closeNavBar()">
+       <button id="cross" onclick="openNavBar()"><img src="images/slide-icon.png" style="width: 30px;"></button>
+    <div id="nav-bar"> <ul> 
+        <li><img onclick ="switchTheme()" id="ying-yang" src="images/theme.png" style="width: 40px;"></li>   
+        <li><a href="main.html">(0,...,0)</a></li>
+        <li><a href="research.html">Research </a></li>    
+        <li> <div class="dropdown"> 
+            <button class="dropbtn">Assorted</button>
+            <div class="dropdown-content">
+                <a href="Wellness.html"> Wellness </a>
+                <!-- <a href="https://thek2space.wordpress.com/">Blog</a> -->
+                <a href="gallery.html">Gallery </a>
+                <a href="misc.html">Misc.</a>
+                </div>
+            </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <div id="content">
+            <div id="above-footer">
+                <h1> Krishna Kumar M.V. </h1>   
+                <!-- <p> <h3> About me </h3>  -->
+                
+                Hey there! I am a doctoral student in Mathematics advised by <a href="https://sites.google.com/view/oestvaer#h.8cy3gin4fbbb"> Paul Arne Østvær </a> in <a href="https://matematica.unimi.it/"> Italy </a> and <a href= "https://dubouloz.perso.math.cnrs.fr/"> Adrien Dubouloz </a> in <a href="https://math.u-bourgogne.fr/"> France</a>. Prior to this, I was an <a href="https://algant.eu/">ALGANT Master </a> at <a href="https://www.uni-regensburg.de/en">Regensburg</a> and <a href="https://www.unimi.it/en">Milan</a> between 2020 - 2022. 
+                <!-- Add CV later -->
+                
+                <div class="pic">    
+                    <img src="/images/photo.JPG" title="Sunset at a Pampas field, India" style="width:min(400px,90%); border-radius: 5%;">
+                </div>
+
+                <h3> Contact </h3>
+                2065, Via Saldini 50, Milan, Italy <br>
+                212, Sciences Mirande - IMB, 21000 Dijon, France
+                <a href="mailto: krishnakumarmadhur@gmail.com">krishnakumarmadhur@gmail.com </a> | <a href="mailto: krishna.madhavan@unimi.it">krishna.madhavan@unimi.it</a>
+            </div>
+        </div>
+    <script src="theme.js"></script>     
+    <script src="slide.js"></script>          
+             
+        
+    </body>
+</html>
