@@ -40,7 +40,6 @@ body {
   color: black;
 }
 
-
 .dark-theme #nav-bar {  background-color: transparent }
 .light-theme #nav-bar {  background-color: transparent}
 
@@ -64,7 +63,6 @@ button {
 }
 
 .dark-theme button {
-
   color: white;
   border: none;
 }
@@ -209,7 +207,7 @@ width: 100%;
   opacity: 0;
   pointer-events: none;
   width: 100%;
-  transition: opacity 0.60s ease-in;
+  transition: opacity 2s ease-in-out;
 }
 
 /* .dropdown { background-color: red;} */
