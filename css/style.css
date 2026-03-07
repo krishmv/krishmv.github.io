@@ -31,15 +31,14 @@ body {
 }
 
 .dark-theme { 
-  background-color: rgb(0, 0, 0); 
+  background-color: rgb(8, 10, 25); 
   color: whitesmoke;
 }
 
 .light-theme { 
-  background-color: rgb(255, 255, 255); 
+  background-color: #cecece; 
   color: black;
 }
-
 
 .dark-theme #nav-bar {  background-color: transparent }
 .light-theme #nav-bar {  background-color: transparent}
@@ -64,7 +63,6 @@ button {
 }
 
 .dark-theme button {
-
   color: white;
   border: none;
 }
@@ -209,7 +207,7 @@ width: 100%;
   opacity: 0;
   pointer-events: none;
   width: 100%;
-  transition: opacity 0.60s ease-in;
+  transition: opacity 2s ease-in-out;
 }
 
 /* .dropdown { background-color: red;} */
@@ -334,10 +332,10 @@ background-color: #2e2323;
 height: max-content;
 }
 .dark-theme .content1 {
-background-color: #000000e8;
+background-color: rgb(8, 10, 25);
 }
 .light-theme .content1 {
-background-color: #ffffff;
+background-color: #cecece;
 }
 
 /* .collapsible:after {
