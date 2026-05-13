@@ -143,17 +143,19 @@ ul.class1{
   text-align: center;
 }
 
- h2 {
-  /* margin: 0px 0px 18px 0px; */
-  padding: 24px 0px 0px 0px;
-}
-
 .dark-theme div h2{
-  color: whitesmoke;
+  color: rgb(255, 255, 0);
+  text-align: center;
 }
 
 .light-theme div h2{
-  color: rgb(8, 8, 8);
+  color: rgb(255, 72, 0);
+  text-align: center;
+}
+
+ h2 {
+  /* margin: 0px 0px 18px 0px; */
+  padding: 24px 0px 0px 0px;
 }
 
 h1, h3 {
